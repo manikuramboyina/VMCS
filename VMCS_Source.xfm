@@ -1,0 +1,236 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="icTjas3yrE3bEynBO" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="ij5YyjrBg80yLYGaT" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="iEZUdK9cloVzpaygT" cm:type="ps:string">VMCS_Source</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i_rXOi8dTofImCCmL" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ixyI8_LcnlzvYooPi" cm:type="ps:string">A0119930E</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i_I-OOPaU4ldN2REi" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iT3TfwbpZN61N3T2z" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iPUc_bh0urqFdGfSG" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="igrtY89YkrOciO75Y" cm:type="ps:datetime">2015-04-18T05:05:57.282Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="icxM-zlsYwRAeGkPw" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="itLLH7c3tGbb1R4Nw" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="iHbGUW6NhNgMI2S8W">
+    <cm:element cm:id="iHbGUW6NhNgMI2S8W" cm:name="VMCS_Source" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iQ1hwzFDoSrs42mz-" cm:class="ps:children">
+        <cm:relation cm:id="i5_aiqt-CIxNUT0ut" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iZ1RGsW-vC-1QQ3jI">./iv7N4hAaGkR-TxgXb</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iYmDbz9zT9X_xtgdG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9qdcXZUcxPh2qqDe" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOlUY4zVqbBJ2ALkX" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iOIkWs_0rxbjloryr" cm:type="ps:datetime">2015-04-18T05:05:57.282Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="io1MzKRCDIs6dXm8Y" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iga7yQABgwDfEh0a5" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3mg46iss_cJQaMaS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iWPwN-1IHV2Xip8Nt" cm:type="ps:datetime">2015-05-09T03:07:45.373Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iv7N4hAaGkR-TxgXb" cm:name="PaymentModeSS" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iAx23_DPhKl1k0qs_" cm:class="ps:parents">
+        <cm:relation cm:id="i26JICsW1HsX0ZI1T" cm:type="ps:parent">
+          <cm:target cm:id="iZT_vNW6vzNF-grdr">./iHbGUW6NhNgMI2S8W</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i70DoOt5Zxg5FW_VL" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="iKx8GOJAMmz1_urZe" cm:class="ps:children">
+        <cm:relation cm:id="i19eRPyZpJzHYtQvL" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="i6GyjVbTGVsDo9mct">./iMxwMiWdJb3WQUxO8</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="ic7yjV-JRc09yEMER" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="iYwRxzLkrCJDvXDtI">./iJgpAJxoD_oUShXp9</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iDPJjfJseTYTHG0lf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iuiR4QapB9fifw6x_" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqTBaV_kJDWS9Y7lF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ipzv2nMuInY3M-hiQ" cm:type="ps:datetime">2015-04-18T05:09:12.750Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDRzKI-TMflY5H4D0" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQSLaf7PWZEPKUfAL" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioCqBu9dk4xlsluru" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ib2D_Urggg_i-Qs0E" cm:type="ps:datetime">2015-05-09T03:07:45.373Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iYS4uSiqvTnTQlyP8" cm:mimetype="text/plain" cm:encoding="utf-8">PaymentModeSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iMxwMiWdJb3WQUxO8" cm:name="ByCashSS" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iuIiNJWUG1lgTqsrS" cm:class="ps:parents">
+        <cm:relation cm:id="itxJ-uP9ZijGnT20G" cm:type="ps:parent">
+          <cm:target cm:id="iGqlXszUFmbkXZ6ab">./iv7N4hAaGkR-TxgXb</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iwiAAh5OeqFcyJMz5" cm:class="ps:children">
+        <cm:relation cm:id="iphScjQrc98EZ2dkh" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iX5T4gYToeDfpV4sO">./iYHXgol8DUwKe-DEO</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="iVzx-Y2lCICribXKf" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="iqOVZ98n_da9EZsg1">./i-cqMyxbnDAGaQvFU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i3hazh4FAjwG8Fkb0" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i2ft6VyYHHOwd0NDn" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOcdf4byNkEUMzOOc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iB3-_OXaQc-q4QbPn" cm:type="ps:datetime">2015-04-18T05:09:50.543Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibjNEwC3ZXWgTNzMa" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQjKwfnPMekGiJ-Jc" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFHgvsK2JwOycXto-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iWw000DA0PEQUK6X3" cm:type="ps:datetime">2015-05-09T03:06:20.880Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iC14eppCS2ue-bPsf" cm:mimetype="text/plain" cm:encoding="utf-8">ByCashSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iJgpAJxoD_oUShXp9" cm:name="ByCardSS" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iE_ls8ohZaKfrOAhs" cm:class="ps:parents">
+        <cm:relation cm:id="ipdjjvFlf06vMea44" cm:type="ps:parent">
+          <cm:target cm:id="igkLbNXpwchanq7I7">./iv7N4hAaGkR-TxgXb</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iz0UwKu-XQeQPRx4a" cm:class="ps:children">
+        <cm:relation cm:id="iscLoJB3PKxl-aWfL" cm:type="ps:alternative">
+          <cm:target cm:id="iXHG39UbzQWTBYqjI">./iLlYCZZnc2fpyo7e2</cm:target>
+          <cm:target cm:id="ixGnTRqT541ur9-YK">./inCQFB4vQ-hk80H6J</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="icg7duXPBUIxnjQgw" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iBJ2-k-xg-mElhMMA" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUgTRNjMBPnlOMD0j" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ieubBsTXQFI9zgNw6" cm:type="ps:datetime">2015-04-18T05:10:32.055Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_70IgPx8Pghp4F0F" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="igpJfzw6FJk2M81d7" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI82YbiASRjclqOrT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="irwY-rwkpmaK7XwiZ" cm:type="ps:datetime">2015-05-09T03:06:31.613Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iPu3IhNbe9kRE89C3" cm:mimetype="text/plain" cm:encoding="utf-8">ByCardSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iYHXgol8DUwKe-DEO" cm:name="CoinSS" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ietpcL7lYy3pBXEda" cm:class="ps:parents">
+        <cm:relation cm:id="iwg0Iwrbbvgyq7G3S" cm:type="ps:parent">
+          <cm:target cm:id="iWKVD2KNHNF4ifYVf">./iMxwMiWdJb3WQUxO8</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iM4eZQvAuYAwtcd8E" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iCFdeB9FpgIgHCY1r" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8Z_EMH1JWtoJw3up" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iedghgpoSOb4vTbmU" cm:type="ps:datetime">2015-04-18T05:11:14.126Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEzHFb7guRiv_HjLC" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iAqJyVWyfAA1QbS1d" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikidImRFEq3dqb0LP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ibTGENr9ONev_yj8b" cm:type="ps:datetime">2015-04-18T05:11:14.126Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iVF_TqwmaBJx-NKKT" cm:mimetype="text/plain" cm:encoding="utf-8">CoinSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i-cqMyxbnDAGaQvFU" cm:name="NoteSS" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ixAsTS0274S-Gb-S8" cm:class="ps:parents">
+        <cm:relation cm:id="iiJ3DnIyvA_dlNWKn" cm:type="ps:parent">
+          <cm:target cm:id="iQXoac3FGKkbLGIsF">./iMxwMiWdJb3WQUxO8</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i0qPYyAGNeD4lJJGx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="incAhIwi-jp2H0le7" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0svYZ_mj8SLmh0ur" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2l_yTDEiYJoxNo7v" cm:type="ps:datetime">2015-04-18T05:11:44.455Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ib4-ROVgLpSzrqu2O" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iPDGA6ySBlA7ryz_d" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLrqL9aAdmx7uJWvq" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iJGwurX7zInUIu1p_" cm:type="ps:datetime">2015-04-18T05:11:44.455Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikdHXe-pG9fKKDjE1" cm:mimetype="text/plain" cm:encoding="utf-8">NoteSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iLlYCZZnc2fpyo7e2" cm:name="CardWithPinSS" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="ivifb4TXyiekJhpw5" cm:class="ps:parents">
+        <cm:relation cm:id="ig0Ks_v5tG-BgFQRJ" cm:type="ps:parent">
+          <cm:target cm:id="ivFtYi12b8K35Rz76">./iJgpAJxoD_oUShXp9</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilQymfcgzhatCdmVx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iQ_hRrH422qrdUFB4" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihyUPEwELdH98gkY8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="irMOmjBlrI_lO4xK9" cm:type="ps:datetime">2015-05-09T03:02:44.412Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="im55JYOZ4MD2_axRy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ipFBV5oD-GR-uUsTl" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTPrd-Uy1MiT0W46_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZg5ZDP_EGJ9MUS3A" cm:type="ps:datetime">2015-05-09T03:02:44.412Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iTHEEFPwHWXDrTUHd" cm:mimetype="text/plain" cm:encoding="utf-8">CardWithPinSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="inCQFB4vQ-hk80H6J" cm:name="CardWithoutPinSS" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="ifzn2jrqQXPAaiGY4" cm:class="ps:parents">
+        <cm:relation cm:id="i87HMHUblNNlu4clW" cm:type="ps:parent">
+          <cm:target cm:id="iEEa0tEe2-POH09q-">./iJgpAJxoD_oUShXp9</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iIdWaI77lnXUIcvPi" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iM1fqFYufFCnxMaet" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwd8-noDpvk3JQQ1P" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iB7ufCQ4Bbv-AgX9i" cm:type="ps:datetime">2015-05-09T03:03:28.388Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijeEgqdGl_ylqQHR9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="icAubYOIdxBeaGNfE" cm:type="ps:string">A0119930E</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7LI2cHlZY55EzRDr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="isutJwTafq_G6_rK4" cm:type="ps:datetime">2015-05-09T03:03:28.388Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iA8UiE11cpQG6PaOc" cm:mimetype="text/plain" cm:encoding="utf-8">CardWithoutPinSS</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
